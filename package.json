@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir -p dist && cp -r public/* dist/",
+    "build": "vite build",
+    "dev": "vite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/aidencullo/amp_playground/issues"
   },
-  "homepage": "https://github.com/aidencullo/amp_playground#readme"
+  "homepage": "https://github.com/aidencullo/amp_playground#readme",
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.2",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "vite": "^7.3.1"
+  }
 }
