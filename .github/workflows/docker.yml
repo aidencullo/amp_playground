@@ -21,3 +21,6 @@ jobs:
 
       - name: Health check
         run: curl -f http://localhost:8080
+
+      - name: Check alternate path
+        run: curl -f http://localhost:8080/alternate_path
